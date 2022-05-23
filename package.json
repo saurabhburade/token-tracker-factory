@@ -1,0 +1,28 @@
+{
+  "name": "token-tracker",
+  "version": "1.0.0",
+  "description": "Tokens tracking factory",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saurabhburade/token-tracker-factory.git"
+  },
+  "keywords": [
+    "ethereum"
+  ],
+  "author": "Saurabh Burade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saurabhburade/token-tracker-factory/issues"
+  },
+  "homepage": "https://github.com/saurabhburade/token-tracker-factory#readme",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.8"
+  }
+}
