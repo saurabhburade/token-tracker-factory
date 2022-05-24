@@ -84,6 +84,14 @@ module.exports = {
       confirmations: 5, // # of confs to wait between deployments. (default: 0)
       timeoutBlocks: 100, // # of blocks before a deployment times out  (minimum/default: 50)
     },
+    kiln: {
+      provider: () =>
+        new HDWalletProvider(mnemonic, `https://rpc.kiln.themerge.dev`),
+      network_id: 1337802, // ftmTestnet's id
+      gas: 29970705, // ftmTestnet has a lower block limit than mainnet
+      confirmations: 5, // # of confs to wait between deployments. (default: 0)
+      timeoutBlocks: 100, // # of blocks before a deployment times out  (minimum/default: 50)
+    },
   },
 
   // Set default mocha options here, use special reporters etc.
